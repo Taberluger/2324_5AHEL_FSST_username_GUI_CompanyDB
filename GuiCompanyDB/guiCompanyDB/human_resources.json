@@ -1,0 +1,33 @@
+{"people":
+  [{"firstName": "Mario",
+    "lastName": "Ahner",
+    "gender": "Male",
+    "dateOfBirth": "1985-10-10",
+    "email": "m.ahner@aon.at",
+    "street": "Bahnweg",
+    "streetNum": 20,
+    "postalCode": 4020,
+    "city": "Linz",
+    "projects": 
+    [{"description": "Java GUI",
+      "workingHours": 20},
+     {"description": "Unit Test",
+      "workingHours": 5},
+     {"description": "Support",
+      "workingHours": 2}]},
+   {"firstName": "Mira",
+    "lastName": "Mare",
+    "gender": "Female",
+    "dateOfBirth": "2000-05-12",
+    "email": "m.mare@aon.at",
+    "street": "Taborweg",
+    "streetNum": 3,
+    "postalCode": 4400,
+    "city": "Steyr",
+    "projects": 
+    [{"description": "Rechnungsdatenbank",
+      "workingHours": 68},
+     {"description": "Security Test",
+      "workingHours": 15}]}
+   ]
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guicompanydb.HelloController">
+
+    <children>
+        <VBox>
+            <children>
+                <Label text="Daten:">
+                    <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                    </VBox.margin>
+                </Label>
+                <ListView fx:id="lvwData" prefHeight="180.0" prefWidth="600.0" />
+                <Button fx:id="btnGetData" mnemonicParsing="false" onAction="#onBtnGetData" text="Daten abrufen JSON">
+                    <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="btnDeleteData" mnemonicParsing="false" onAction="#onBtnDeleteData" text="Datensatz löschen">
+                    <VBox.margin>
+                        <Insets left="5.0" top="5.0" />
+                    </VBox.margin>
+                </Button>
+            <Button fx:id="onBtnGSONData" mnemonicParsing="false" onAction="#onBtnGSONData" text="Daten abrufen GSON">
+               <VBox.margin>
+                  <Insets left="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            </children>
+        </VBox>
+    </children>
+    <padding>
+        <Insets left="5.0" top="5.0" />
+    </padding>
+</Pane>
